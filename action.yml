@@ -1,4 +1,4 @@
-name: Setup Task
+name: Setup Taskfile
 description: >-
   Pulls the 'Task' binary and adds it to "$GITHUB_PATH" for the remainder of the
   job.

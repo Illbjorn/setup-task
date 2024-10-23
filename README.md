@@ -1,6 +1,6 @@
 # Overview
 
-`setup-task` is a simple GitHub Action to setup [Taskfile](https://taskfile.dev/)
+`setup-taskfile` is a simple GitHub Action to setup [Taskfile](https://taskfile.dev/)
 and add it to `$GITHUB_PATH` for the remainder of the Workflow job.
 
 # Usage
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Task
-        uses: illbjorn/setup-task@main
+        uses: illbjorn/setup-taskfile@main
 
       - name: Invoke Task
         shell: bash
