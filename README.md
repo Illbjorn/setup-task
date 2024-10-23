@@ -19,6 +19,10 @@ jobs:
     steps:
       - name: Setup Task
         uses: illbjorn/setup-task@main
+
+      - name: Invoke Task
+        shell: bash
+        run: task my-task # Success!
 ```
 
 ## Inputs
